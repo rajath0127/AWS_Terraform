@@ -1,0 +1,22 @@
+# Terraform local directories
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Backup files
+*.backup
+
+# Sensitive credentials
+*.pem
+*.csv
+
+# Ignore Windows Explorer duplicate files
+*Copy.tfvars
+
+# Ignore everything in AWS_Files folder
+AWS_Files/
